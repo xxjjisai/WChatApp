@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/zka/zka",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#ff534d",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff534d",
+    "navigationBarTitleText": "LK餐帮",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "pageOrientation":"portrait"
+    
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle":"white",
+    "list": [{
+    "selectedIconPath": "images/11.png",
+    "iconPath": "images/10.png",
+    "pagePath": "pages/zka/zka"
+    }, {
+    "selectedIconPath": "images/31.png",
+    "iconPath": "images/30.png",
+    "pagePath": "pages/zka/zka" 
+    }, {
+    "selectedIconPath": "images/21.png",
+    "iconPath": "images/20.png",
+    "pagePath": "pages/zka/zka"
+    }]
+  }
+}
